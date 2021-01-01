@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px 5px;
+    height: 100%;
+    background-image: linear-gradient(white, rgb(219, 208, 157));
+    background-repeat: no-repeat;
+}
+
+.title {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 35%;
+}
+
+.trophy {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.trophy-image {
+    width: 30%;
+    height: 85%;
+}
+
+.awardimage {
+    width: 90%;
+    height: 60%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.motors {
+    width: 100%;
+    padding: 1rem 10rem;
+}
+
+.pump {
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+.typeofwork {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.verticle_line {
+    margin: 0px 3px;
+    width: 1px;
+    height: 15px;
+    background-color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    background-color: rgb(185, 51, 51);
+    color: white;
+}
